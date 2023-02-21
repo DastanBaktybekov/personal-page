@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+   }
+   body {
+   background: url("https://bit.ly/hw4dastan"); /* replace yellow image web address FuMing emails you */
+   opacity: .5;
+   background-repeat: no-repeat;
+   }
+   .container {
+   max-width: 1400px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   gap: 16px;
+   }
+   .container > * {
+   background-color: lightblue;
+   font-size: 10rem;
+    color: blue;
+    border: 2px dashed blue;
+    height: 200px;
+   }
+   .container .box1{
+    flex-grow: 1;
+    flex-basis: 218px;
+   }
+   .container .box2{
+    flex-grow: 4;
+    flex-basis: 950px;
+   }
+   .container .box3{
+    flex-grow: 2;
+    flex-basis: 520px;
+   }
+   .container .box4{
+    flex-grow: 2;
+    flex-basis: 520px;
+   }
+   .container .box5{
+    flex-grow: 1;
+    flex-basis: 202px;
+   }
+   .container .box6{
+    flex-grow: 1;
+    flex-basis: 1400px;
+   }
+   
