@@ -24,8 +24,8 @@ body {
     grid-template-columns: minmax(20px, 155px) minmax(20px, 477px) minmax(20px, 564px) minmax(20px, 339px);
     grid-template-areas:
   "one one one one"
-  "six five two seven"
-  "three three eight nine"
+  "two five three seven"
+  "six six eight nine"
   "four four eight nine";
   
 }
@@ -65,7 +65,8 @@ ul{
     font-size: 0.48em;
     font-weight: 700;
     text-transform: uppercase;
-    background-color: green;
+    background-color: lightblue;
+    padding: 0;
 }
 li{
     padding: 2rem;
