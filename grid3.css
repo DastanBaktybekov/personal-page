@@ -2,13 +2,16 @@
     margin: 0;
     box-sizing: border-box;
 }
+img:nth-of-type(1){
+    display: none;
+}
 body {
-    background-image: url(https://cdn.imgchest.com/files/j7mmcrepg76.png);
+    background-image: none;
     background-repeat: no-repeat;
     max-width: 1535px;
     min-height: 1292px;
     font-size: 2rem;
-    opacity: .5;
+    opacity: 1;
     color: blue;
 }
 .container > * {
@@ -21,7 +24,7 @@ body {
     grid-template-columns: minmax(20px, 155px) minmax(20px, 477px) minmax(20px, 564px) minmax(20px, 339px);
     grid-template-areas:
   "one one one one"
-  "two five six seven"
+  "six five two seven"
   "three three eight nine"
   "four four eight nine";
   
@@ -53,34 +56,20 @@ body {
 }
 ul{
     display: flex;
-    align-items: center;
-    justify-content: end;
-    padding: 0;
+    flex-direction: column;
     flex-wrap: wrap;
     list-style-type: none;
-    margin: 0;
     max-width: 100%;
     min-height: 100%;
     color: #212121;
-    display: flex;
     font-size: 0.48em;
     font-weight: 700;
-    line-height: 50px;
     text-transform: uppercase;
-    background-color: white;
+    background-color: green;
 }
-
-.super{
-    flex-basis: 93px;
-}
-.news{
-    flex-basis: 71px;
-}
-.music{
-    flex-basis: 82px;
-}
-.fa {
-    flex-basis: 228px;
+li{
+    padding: 2rem;
+    border-bottom: 1px solid white;
 }
 
 
