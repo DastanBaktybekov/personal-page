@@ -47,6 +47,7 @@ body {
     grid-area: two;
 }
 
+
 .box2 img{
     max-width: 100%;
 }
@@ -56,6 +57,11 @@ body {
     grid-area: three;
 }
 
+#first{
+    background-image: url(https://serep.kg/wp-content/uploads/2023/05/10-jyl-chon-jyk-menen-jashadym-deit-aktrisa-zarema-asanalieva-360x180.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}   
 .box4 {
     grid-area: four;
 }
@@ -68,7 +74,7 @@ body {
     grid-area: six;
     
 }
-ul{
+.box6 > ul{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -94,6 +100,18 @@ li{
 
 .box8 {
     grid-area: eight;
+}
+.box8 > ul{
+    list-style-type: none;
+    background-color: white;
+    color: black;
+    line-height: 50%;
+}
+.time{
+    font-size: 10px;
+}
+.name{
+    font-size: 18px;
 }
 
 .box9 {

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -45,6 +47,43 @@ body {
 .box3 {
     grid-area: three;
 }
+.news2{
+    margin-top: 50px;
+}
+h1{
+ font-size: 15px;
+ color: black;
+}
+h2{
+    font-size: 10px;
+    color: black;
+}
+
+#first{
+    background-image: url('https://serep.kg/wp-content/uploads/2023/05/10-jyl-chon-jyk-menen-jashadym-deit-aktrisa-zarema-asanalieva-360x180.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}   
+#second{
+    background-image: url(https://serep.kg/wp-content/uploads/2023/05/apama-vip-shaarchadan-chon-osobnyak-belek-kyldym-deit-tamada-argen-esenbai-uulu-360x180.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#third{
+    background-image: url(https://serep.kg/wp-content/uploads/2023/05/21-million-somduk-kenemte-myizamdy-kaira-karap-chyguu-kerekpi-360x180.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#fourth{
+    background-image: url(https://serep.kg/wp-content/uploads/2023/05/aziz-muradillaev-katyshkan-akyrky-klip-korsotyldy-360x180.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#fifth{
+    background-image: url(https://serep.kg/wp-content/uploads/2023/05/prevyuyutub-17-05-2023-001-aitbaev-360x180.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .box4 {
     grid-area: four;
@@ -58,7 +97,7 @@ body {
     grid-area: six;
     
 }
-ul{
+.box6 > ul{
     display: flex;
     align-items: center;
     justify-content: end;
@@ -95,8 +134,22 @@ ul{
     grid-area: seven;
 }
 
+
 .box8 {
     grid-area: eight;
+}
+.box8 > ul{
+    list-style-type: none;
+    margin-top: 6px;
+    background-color: white;
+    color: black;
+    line-height: 80%;
+}
+.time{
+    font-size: 10px;
+}
+.name{
+    font-size: 18px;
 }
 
 .box9 {
