@@ -162,11 +162,11 @@ li{
          grid-template-areas:
          "one"
          "two"
-         "nine"
+         "ten"
          "four"
          "five"
          "seven"
-         "ten"
+         "nine"
          "three"
          "eight";
         }
@@ -182,12 +182,11 @@ li{
         grid-template-areas: 
             "one"
             "two"
-           
-            "nine"
+            "ten"
             "four"
             "five"
             "seven"
-            "ten"
+            "nine"
             "three"
             "eight";
     }
